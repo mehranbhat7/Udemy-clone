@@ -1,0 +1,176 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    height: 72px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+.logo{
+    width: 91px;
+    height: 34px;
+}
+.categories{
+    font-size: 14px;
+    color: rgb(113, 110, 110);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+}
+.categories:hover{
+    color: purple;
+    font-size: 17px;
+}
+.input{
+    display: inline-block;
+    position: relative;
+}
+.input i{
+    position: absolute;
+    top: 34%;
+    left: 10px;
+    font-size: large;
+    color:rgb(113, 110, 110) ;
+}
+.border{
+    border: 1px solid black;
+    border-radius: 30px;
+}
+.border:hover{
+    border: 2px solid purple;
+    border-radius: 30px ;
+}
+.input input{
+    height: 47px;
+    width: 345px;
+    border-radius: 30px;
+    padding-left: 50px;
+    border: none;
+    font-size:medium;
+}
+.icon{
+    height: 24px;
+    width: 24px;
+    margin-top: 15px;
+    font-size: larger;
+}
+.icon:hover{
+    color: purple;
+}
+button{
+    height: 40px;
+    width: 80px;
+    background-color: white;
+    border: 1px solid rgb(3, 3, 3);
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin-left: 9px;
+}
+button:hover{
+    color: purple;
+}
+.photo{
+    background-image: url(https://img-c.udemycdn.com/notices/web_carousel_slide/image/cfcb90bd-92f8-407b-b72c-716edf2706f5.jpg);
+    height: 392px;
+    background-size: cover;
+    box-shadow: inset 0px 20px 20px -10px rgba(0, 0, 0, 0.9);
+    position: relative;
+}
+.quote{
+    position: absolute;
+    border: 1px solid black;
+    height: 186px;
+    width: 400px;
+    padding: 24px;
+    background-color: #ffffff;
+    border: none;
+    top: 20%;
+    left: 90px;
+    box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.4)
+}
+.companies{
+    background-color: rgba(224, 221, 221, 0.213);
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.about{
+    background-color: white;
+    margin-top: 60px;
+    margin-left: 40px;
+}
+.courses{
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color:  rgb(113, 110, 110);
+    font-weight: 600;
+    width: 900px;
+}
+.courses a:hover{
+    color: purple;
+    font-size: 1.4rem;
+}
+.python{
+    border: 1px solid black;
+    padding: 32px;
+    margin: 20px;
+    height: 170px;
+    background-color: rgba(220, 216, 216, 0.307);
+}
+.top-categories{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0px 16px 32px 0px;
+    flex-wrap: wrap;
+}
+.categories-course{
+    text-align: center;
+}
+.categories-course img{
+    height: 300px;
+    width: 300px;
+    margin: 6px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+}
+.categories-course p{
+    color: rgb(113, 110, 110);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+}
+.categories-course p:hover{
+    color: purple;
+    font-size: 20px;
+}
+.footer{
+    background-color: rgba(0, 0, 0, 0.926);
+    color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 293px;
+    margin-top: 70px;
+}
+ul li{
+    list-style-type: none;
+    font-size: smaller;
+    margin-top: 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.copyright{
+    text-align: center;
+    height: 30px;
+    margin-top: 15px;
+}
+.copyright:hover{
+    color: red;
+    font-size: 30px;
+}
